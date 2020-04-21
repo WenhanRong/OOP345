@@ -1,0 +1,25 @@
+/*************************************************************************
+// OOP345SFF Workshop 5 at home
+// File: Reflection
+// Version: 1
+// Date: 2019-02-28
+// Author: Alisa Tam
+// Description: List module
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad          2019-01-15      created empty file for workshop
+*************************************************************************/
+
+1. The difference between a functor and lambda is that a functor is an object that
+acts like a function and is an overloaded () operator, while a lambda is an anonymous 
+function that is not going to be reused, and takes this format: [](){}
+
+2.I used exceptions in my code to ensure that the elements in the index operator
+is not out of bounds.
+
+if (i < m_used) {
+	throw std::string("[] not available");
+}
+
