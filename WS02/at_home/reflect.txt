@@ -1,0 +1,23 @@
+/*************************************************************************
+// OOP345SFF Workshop 2 at home reflection
+// File: Reflection
+// Version: 1
+// Date: 2019-02-05
+// Author: Alisa Tam
+// Description: For the reflection portion
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad          2019-01-15      created empty file for workshop
+*************************************************************************/
+
+
+1. The difference between the copy and move operators is that one is a shallow copy,
+and the other is a deep copy. A shallow copy will copy all the values of an existing
+object into a new object, and could reference the same object as the original. 
+Whereas a deep copy will clone the values, and there are no shared references.
+
+2. We dynamically allocate addresses to objects rather than objects because a pointer
+is abstract and gives us the most amout of memory and freedom of use. 
+
