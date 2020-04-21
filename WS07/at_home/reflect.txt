@@ -1,0 +1,38 @@
+Name: Alisa Tam
+Student ID: 131580177
+Email: aabramovici@myseneca.ca
+
+Reflection for Workshop 7
+
+1. We use vector containers versus other STL containers because vectors are the most
+efficient of the containers. Vectors also store their elements contiguously, making
+them simpler to access for printing, in this context. We also didn't benefit from 
+having double ended access in this exericise. 
+
+2. Below is a list of the STL template functions used in my solution:
+.pushback()
+.begin()
+.end()
+.size()
+
+
+3. Below are the places I used a lambda expression:
+
+	- as part of T mean() const: 
+		T result = std::accumulate(data.begin(), data.end(), (T)0, [](T &acc, const point &p) {return acc + p.second; });
+	- as part of T sigma() const:
+		T stdev = std::accumulate(data.begin(), data.end(), (T)0, [avg](T &acc, const point &p) {return acc + std::pow(p.second - avg, 2); });
+	- as part of T median() const:
+		sort(newdata.begin(), newdata.end(), [](const point &a, const point &b) {return a.second < b.second; });
+	-as part of void regression(T& slope, T& y_intercept) const:
+		std::for_each(data.begin(), data.end(), [&](const point &p) {
+				xy += p.first * p.second;
+				x += p.first;
+				y += p.second;
+				x2 += std::pow(p.first, 2);
+		});
+
+4. Programming associated with STL is simpler since we do not need to program all the logic, 
+and can used the templated funcations available to us. This makes it simpler for the 
+programmer, and reduces the amount of code we write. 
+		
