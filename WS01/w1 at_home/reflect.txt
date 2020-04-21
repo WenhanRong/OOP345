@@ -1,0 +1,33 @@
+/*************************************************************************
+// SubjectCode Deliverable: OOP345SFF Workshop 1 at home
+// File: String.cpp
+// Version: 1.0
+// Date: 2018-01-21
+// Author: Alisa Tam 131580177
+// Description: reflection
+// Revision History: None
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad          2019-01-15      created empty file for workshop
+*************************************************************************/
+
+In this workshop I learned how to use internal and external linkage. It was also a refresher on how to
+work with strings and the command line.
+
+1.The difference between internal and external linkage boils down to wether a declaration is visible
+across translation units. An internal linkage declaration (which doesn't require a keyword), determines
+that the entity can be referenced, and is visible, only within its scope. External linkage is when the entity
+is visible in other translation units. Below is an example of this in my code:
+	~ Internal: In the w1.cpp module int i is declared twice on lines 24 and 35. This internal linkage 
+	  means that the variable i can be declared twice in one translation unit because it is only visible 
+	  within the scope of the 'for' loops curly braces.
+	~ External: In the String.h module INITIAL is declared with the extern keyword, and it is initialized
+	  in the w1.cpp module. This is the same variable which has exposure across modules.
+
+2. Process instantiates a new string called 'a'. It does this by calling the constructor of String, and copying
+it to 'a', and then outputting that information.
+
+3. In my original 'in lab' code I had coded the string class to manage a c-style null terminated string. I will read
+the instructions more carefully in the future. To make the string of any length, I removed the 'MAX' variable that
+was initialized to 3 and used the strlen() function to substitue the length in the String.cpp module.
+ 

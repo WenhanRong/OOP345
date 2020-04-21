@@ -1,0 +1,4 @@
+﻿  String.cpp
+c:\users\alisa abramovici\documents\seneca cpd\winter 2019\oop345\oop-workshops-master\ws01\w1 at_home\string.cpp(26): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+  w1 in_lab.vcxproj -> C:\Users\Alisa Abramovici\Documents\Seneca CPD\WINTER 2019\OOP345\OOP-Workshops-master\WS01\w1 at_home\Debug\w1 in_lab.exe
