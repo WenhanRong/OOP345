@@ -1,0 +1,30 @@
+/*************************************************************************
+// OOP345SFF Workshop 6 at home 
+// File: Reflect.txt
+// Version: 1
+// Date: 2019-03-24
+// Author: Alisa Tam
+// Description: Reflect on the workshop
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad          2019-01-15      created empty file for workshop
+*************************************************************************/
+
+
+
+1. Using a vector container is much more efficient than using other containers since they
+are more efficient at accessing their elements, adding elements, and removing elements. 
+They also store their elements in memory contiguously, just like arrays, and their elements
+can be accessed in sequence.
+
+
+2. We do not need to deallocagte the dynamically allocated memory in our own code because
+the destructor of std::vector will free any allocated memory. The vector takes care of 
+it for us in the background, and the programmer doesn't need to do anything.
+
+3. The rangebased for simplifies the code because it reduces the amount of code you need to
+write, which means fewer bugs. It also only operates over the range of values specified, so
+it doesn't need a terminator to know when it's reached the last element in the range.
+(e.g i <0);
