@@ -1,0 +1,38 @@
+/*************************************************************************
+// OOP345SFF Workshop 3 at home
+// File: List.h
+// Version: 1
+// Date: 2019-02-13
+// Author: Alisa Tam
+// Description: Reflection
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad          2019-01-15      created empty file for workshop
+*************************************************************************/
+
+
+Dear Fardad,
+
+With all do respect, the instructions for this workshop were difficult to follow. I had trouble
+understanding the requirements of what was needed, and I still don't know if I met those 
+requirements. Is it possible to review the labs together in class to ensure that we include
+all of the required methods in the code? Just a suggestions, thank you.
+
+In this lab I brushed up on how to create class templates and derive from them. I also learned
+how to create template specializations, like how there are two specializations for the "initial"
+variable, one if it is an int, and another if it is a string:
+
+const int SummableLVPair<std::string, int>::initial = 0;  //if it is an int
+
+const std::string SummableLVPair<std::string, std::string>::initial = ""; //if it is a string
+
+1. The reason for specliazing the sum() member function was to accumulate all the partially
+accumulated sums from two objects.
+
+2. The initial value for summation was specialized so that it could not only add ints together
+but so it could concatenate strings, too.
+
+3. The reason for defining the class variable outside the class definition is so static members
+are defined somewhere in the class, and outside the class, following the One Definition Rule.
