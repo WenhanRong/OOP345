@@ -1,0 +1,25 @@
+/*************************************************************************
+// OOP345SFF Workshop 4 at home
+// File: Reflection
+// Version: 1
+// Date: 2019-02-27
+// Author: Alisa Tam
+// Description: Reflection for Workshop 4
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+// Fardad          2019-01-15      created empty file for workshop
+*************************************************************************/
+
+In this workshop we learned how to create composition and aggregation class 
+relationships based on the Message module. I learned how to use the string class
+and a refresher on dynamically allocated arrays. Also how to create and use an array
+of pointers to addresses in memory. This is the array created with two asterisks(**)
+
+This workshop was super confusing, and at first, I didn't understand the difference in
+the way the composition and aggregation methods were implemented. And why we were required
+to implement move and copy operators. In the move operator I used the std::swap function
+to switch the values at each variable. Fopr the copy operator, I iterated through the 
+arrays and copied the values from  the parameter to the member array.
+

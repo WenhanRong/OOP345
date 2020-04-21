@@ -1,0 +1,4 @@
+﻿  Message.cpp
+c:\users\alisa abramovici\documents\seneca cpd\winter 2019\oop345\oop-workshops-master\ws04\in_lab\message.cpp(30): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  in_lab.vcxproj -> C:\Users\Alisa Abramovici\Documents\Seneca CPD\WINTER 2019\OOP345\OOP-Workshops-master\WS04\in_lab\Debug\in_lab.exe
